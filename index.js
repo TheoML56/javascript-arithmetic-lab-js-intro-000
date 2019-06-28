@@ -15,9 +15,11 @@ function divide(a, b) {
 }
 
 func inc(n) {
-  return n++
+   n++
+   return n
 }
 
 func dec(n) {
-  return n--
+    n--
+    return n
 }
